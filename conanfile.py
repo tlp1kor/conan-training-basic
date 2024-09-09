@@ -5,7 +5,7 @@ import os
 
 class IntegrationAppConan(ConanFile):
     name = "microservice_app"
-    version = "1.0"
+    version = "2.0"
     license = "MIT"
     description = "Application integrating addition and multiplication libraries"
     settings = "os", "compiler", "build_type", "arch"
@@ -17,8 +17,8 @@ class IntegrationAppConan(ConanFile):
 
     # Define the dependencies in the `requirements` method
     def requirements(self):
-        self.requires("addition_lib/1.0")
-        self.requires("multiplication_lib/1.0")
+        self.requires("addition_lib/2.0")
+        self.requires("multiplication_lib/2.0")
 
     def generate(self):
         # Generate CMake toolchain and dependencies files
