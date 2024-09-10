@@ -10,6 +10,7 @@ The two deliveries are:
 - multiplication_lib/2.0: [Github Repository](https://github.com/tlp1kor/conan-training-basic-lib2/tree/chapter_2_dependency_handling)
 
 The application is built with Conan which in background will use CMake in this case.
+Clone the [chapter_2_dependency_handling](https://github.com/tlp1kor/conan-training-basic-lib1/tree/chapter_2_dependency_handling) branch of `conan-training-basic-lib1` repository and [chapter_2_dependency_handling](https://github.com/tlp1kor/conan-training-basic-lib2/tree/chapter_2_dependency_handling) branch of `conan-training-basic-lib2` repository in your local and build them before hand.
 To build the application please run the following command:
 ```
 ./build.sh
