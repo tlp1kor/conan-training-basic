@@ -19,7 +19,7 @@ conan config install $ROOT_DIR/conan_conf
 profile=profile_x86_debug
 
 # Run Conan install with specified build folder
-conan install $ROOT_DIR -pr:a $profile --build=never
+conan install $ROOT_DIR -pr:a $profile --build=missing
 
 # Generate png file to showcase dependency
 conan graph info $ROOT_DIR -pr:a $profile --format=dot > $build_dir/dependencies.dot
